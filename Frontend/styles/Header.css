@@ -1,0 +1,48 @@
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  a {
+    font-family: "Josefin Sans", sans-serif;
+    text-decoration: none;
+    color: #6d1212;
+    font-size: 21px;
+    padding: 10px;
+    transition: color 0.3s ease;
+    font-weight: 500;
+  }
+  
+  a:hover {
+    color: #fd1f4a;
+  }
+
+  .logo {
+    margin-right: 20px;
+  }
+  
+  .logo img {
+    max-width: 180px; 
+  }
+  h1
+  {
+    color: #6d1212;
+    font-weight: 700; 
+    font-family :"Alata", sans-serif;
+  }
