@@ -86,3 +86,8 @@ a:hover{
 .input-group-text{
     border-color: rgba(0,0,0,0.3);
 }
+
+.Login{
+    text-decoration: none;
+    color:white;
+}

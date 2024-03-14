@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const uri = "mongodb://localhost:27017/Tasty_Hub";
+const uri = "mongodb+srv://Divine_ansh:Wtkw4qg4TzaIZLni@cluster0.9zlwya3.mongodb.net/";
 
 const connectDB = ()=>{
     // console.log("connect db");

@@ -2,7 +2,7 @@ require("dotenv").config();
 const express = require("express");
 const app = express();
 const connectDB = require("./db/connect");
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 const path = require("path");
 const {
   handleUserSignup,
@@ -25,6 +25,7 @@ app.set("views", path.join(__dirname, "views"));
 
 
 app.get("/login", handleUserLogin2);
+app.get("/home", Logggedin);
 app.get("/signup", handleUserSignup2);
 app.post("/signup", handleUserSignup);
 app.post("/login", handleUserLogin);
