@@ -1,9 +1,9 @@
 const mongoose = require("mongoose");
 
-const uri = "mongodb+srv://Divine_ansh:Wtkw4qg4TzaIZLni@cluster0.9zlwya3.mongodb.net/";
+const uri = "mongodb+srv://Divine_ansh:Wtkw4qg4TzaIZLni@cluster0.9zlwya3.mongodb.net/Tasty_Hub";
 
 const connectDB = ()=>{
-    // console.log("connect db");
+     console.log("connect db");
     return mongoose.connect(uri);
 };
 
