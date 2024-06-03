@@ -84,7 +84,7 @@ function Login() {
 
             <div className="text-center">
               <small>
-                Don't have an account?{" "}
+                Dont have an account?{" "}
                 <a href="/signup" className="fw-bold">
                   Sign-up
                 </a>

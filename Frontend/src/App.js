@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.scss';
 // react router dom
 import {
@@ -8,8 +9,8 @@ import {
 // pages
 import { Home, MealDetails, Error, Category } from "./pages/index";
 // components
-import Header from "./components/Header/Header";
-import Signup from './components/Sign_Up/Signup';
+//import Header from "./components/Header/Header";
+import Signup from './components/Sign_Up/Signup.jsx';
 import Navbar from './components/Header/Navbar';
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
     <BrowserRouter>
     <Navbar />
       <Routes>
-        <Route path = "/home" element = {<Home />} />
+        <Route path = "/" element = {<Home />} />
         <Route path = "/meal/:id" element = {<MealDetails />} />
         <Route path = "/meal/category/:name" element = {<Category />} />
         <Route path = "/SignUp" element = {<Signup />} />
