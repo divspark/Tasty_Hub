@@ -40,7 +40,7 @@ async function handleUserLogin(req, res) {
       setUser(sessionId, user);
       res.cookie("uid", sessionId);
       console.log("yes");
-      return res.redirect("/home");
+      return res.redirect("http://localhost:3000/");
     }
     
   } catch (error) {
